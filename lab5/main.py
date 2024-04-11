@@ -58,7 +58,15 @@ def zad5(value,min,max,method='r'):
     steps=0
     while min<=max:
         steps +=1
-        value=random.randint(min,max) if method =='r' else (min +max )//2
-
+        guess=random.randint(min,max) if method =='r' else (min +max )//2
+        if guess == value:
+            return steps
+        elif guess <value:
+            min+=1
+        else:
+            max-1
+    return steps
+print(zad5(5,0,20))
+print(zad5(5,0,20,'b'))
         
 
