@@ -1,0 +1,5 @@
+To jest przykładowy plik tekstowy.
+Linia pierwsza.
+Linia druga.
+Linia trzecia.
+Linia czwarta.
